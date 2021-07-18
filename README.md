@@ -103,7 +103,7 @@ Users should be able to:
     }
     ```
 
-    In my use case using picture element was a better option as it works well when you have multiple images saving us from writing separate media queries.
+    In my case using picture element was a better option as it works well when you have multiple images saving us from writing separate media queries.
 
 ### Continued development
 
