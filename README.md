@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- FrontendMentor Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/mobilefirst-responsive-site-using-bem-and-css-flexbox-5t8xOw1c0)
+- Live Site URL: [Add live site URL here](https://smita-14.github.io/stats-preview-card-challenge/)
 
 ## My process
 
