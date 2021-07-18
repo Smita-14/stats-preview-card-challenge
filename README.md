@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/mobilefirst-responsive-site-using-bem-and-css-flexbox-5t8xOw1c0){target="_blank"} 
-- Live Site URL: [https://smita-14.github.io/stats-preview-card-challenge](https://smita-14.github.io/stats-preview-card-challenge/){target="_blank"} 
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/mobilefirst-responsive-site-using-bem-and-css-flexbox-5t8xOw1c0)
+- Live Site URL: [https://smita-14.github.io/stats-preview-card-challenge](https://smita-14.github.io/stats-preview-card-challenge/)
 
 ## My process
 
