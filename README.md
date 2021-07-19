@@ -107,7 +107,7 @@ Users should be able to:
 
 ### Continued development
 
-This challenge helped me excercise on beginner level of flexbox and now I would like to brush my skills on intermediate level. Also height property can be tricky sometimes and I look forward to work on it till I am comfortable with it.
+This challenge helped me exercise on beginner level of flexbox and now I would like to brush my skills on intermediate level. Also height property can be tricky sometimes and I look forward to work on it till I am comfortable with it.
 
 
 ## Author
