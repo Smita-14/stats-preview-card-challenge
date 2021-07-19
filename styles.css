@@ -203,6 +203,11 @@ body {
         font-size: 15px;
     }
 
+    .container {
+        max-width: 90%;
+        margin: 3em auto;
+    }
+
     .card__heading {
         margin-bottom: .6em;
     }
@@ -216,6 +221,11 @@ body {
 @media (min-width: 1080px) {
     body {
         font-size: 18px;
+    }
+
+    .container {
+        max-width: 85%;
+        margin: 3em auto;
     }
 
     .card__heading {
@@ -236,6 +246,11 @@ body {
         font-size: 20px;
     }
 
+    .container {
+        max-width: 80%;
+        margin: 3em auto;
+    }
+
     .card__subheading {
         font-size: .9rem;
     }
@@ -250,7 +265,6 @@ body {
 
     .card__text {
         max-width: 50%;
-        margin-left: 2.5em;
     }
 
     .text-wrapper {
