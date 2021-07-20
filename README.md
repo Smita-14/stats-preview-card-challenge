@@ -6,7 +6,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
+    - [Target design](#target-design)
+    - [Solution screenshots](#solution-screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,7 +25,11 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshots
+#### Target Design
+![Target Mobile Design](design/mobile-design.jpg "Target Mobile Design")
+![Target Desktop Design](design/desktop-design.jpg "Target Desktop Design")
+
+### Solution screenshots
 
 **Mobile preview**
 
