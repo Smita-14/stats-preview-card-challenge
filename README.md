@@ -29,7 +29,7 @@ Users should be able to:
 
 | **Mobile Design** | **My Solution** |
 | -- | -- |
-| ![Target Mobile design](./design/mobile-design.jpg) | ![My solution to design](./design/mobile-size.jpg) |
+| ![Target Mobile design](./design/mobile-design2.jpg) | ![My solution to design](./design/mobile-size2.jpg) |
 
 
 | **Desktop Design** |
