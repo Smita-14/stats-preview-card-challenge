@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../stats-preview-card-challenge/images/favicon-32x32.png" type="image/x-icon">
-    <!-- <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon"> -->
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Stats Preview - FrontentMentor Challenge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
-    <div class="container">
-        <section class="card">
-            <div class="card__img">
+  <main class="main container">
+    <section class="card">
+      <div class="card__img">
 
-                <picture>
-                    <source media="(max-width: 800px)" srcset="../stats-preview-card-challenge/images/image-header-mobile.jpg">
-                    <!-- <source media="(max-width: 800px)" srcset="../images/image-header-mobile.jpg"> -->
-                    <img class="img" src="../stats-preview-card-challenge/images/image-header-desktop.jpg" alt="meeting">
-                    <!-- <img class="img" src="../images/image-header-desktop.jpg" alt="meeting"> -->
-                </picture>
+        <picture>
+          <source media="(max-width: 1079px)" srcset="images/image-header-mobile.jpg">
+          <img class="img" src="images/image-header-desktop.jpg" alt="meeting">
+        </picture>
 
-                <div class="img-overlay"></div>
-            </div>
+        <div class="img-overlay"></div>
 
-            <div class="card__text">
+      </div>
 
-                <div class="text-wrapper">
-                    <h1 class="card__heading">Get<span class="highlight"> insights </span>that help your business grow.</h1>
-                    <p class="card__subheading">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall effieciency.</p>
-                </div>
+      <div class="card__text">
 
-                <div class="card__stats">
-                    <div class="stats">
-                        <h5 class="stats__num">10k+</h5>
-                        <p class="stats__title">Companies</p>
-                    </div>
+        <div class="text-wrapper">
+          <h1 class="card__heading">Get<span class="highlight"> insights </span>that help your business grow.</h1>
+          <p class="card__paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        </div>
 
-                    <div class="stats">
-                        <h5 class="stats__num">314</h5>
-                        <p class="stats__title">Templates</p>
-                    </div>
+        <div class="card__stats">
+          <div class="stats">
+            <h3 class="stats__num">10k+</h3>
+            <p class="stats__title">companies</p>
+          </div>
 
-                    <div class="stats">
-                        <h5 class="stats__num">12M+</h5>
-                        <p class="stats__title">Queries</p>
-                    </div>
+          <div class="stats">
+            <h3 class="stats__num">314</h3>
+            <p class="stats__title">templates</p>
+          </div>
 
-                </div>
-            </div>
-        </section>
-    </div>
+          <div class="stats">
+            <h3 class="stats__num">12M+</h3>
+            <p class="stats__title">queries</p>
+          </div>
 
-    <div class="attribution">
-        <small class="attribution__text">Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<span class="span-text"> Coded by  <a class="attribution__link" href="https://www.frontendmentor.io/profile/Smita-14" target="_blank">Smita</a>.</span></small>
-    </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="attribution">
+      <h4 class="attribution__text">Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="attribution__link" href="https://www.frontendmentor.io/profile/Smita-14">Smita</a>.</h4>
+    </section>
+  </main>
+
 
 </body>
 </html>

@@ -19,60 +19,61 @@
 }
 
 /* typography */
+.attribution__text {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--main-white);
+    margin-top: 1rem;
+}
+
+.attribution__link {
+    color: hsl(216, 89%, 44%);
+}
+
 .card__heading {
     color: var(--main-white);
-    margin-bottom: .5em;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+}
+
+.card__paragraph {
+    color: var(--para-white);
+    font-size: .95rem;
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
 }
 
 .highlight {
     color: var(--soft-violet);
 }
 
-.card__subheading {
-    color: var(--para-white);
-    font-size: .85rem;
-    line-height: 1.6;
-}
-
 .stats__num {
     color: var(--main-white);
-    font-size: 1rem;
-    margin-bottom: .5em;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 .stats__title {
     color: var(--title--white);
     text-transform: uppercase;
-    font-size: .595rem;
-    letter-spacing: .8px;
+    font-size: .8rem;
+    letter-spacing: .5px;
 }
 
-.attribution__text {
-    color: var(--para-white);
-    font-size: 11px;
-}
 
-.attribution__link {
-    color: hsl(228, 45%, 44%);
-}
-
-.span-text {
-    display: block;
-}
-
-/* general styles */
+/* general styling */
 body {
-    font-size: 15px;
-    font-family: 'Inter', 'sans-serif';
+    font-family: 'Inter', sans-serif;
     background-color: var(--bg-blue);
     text-align: center;
+    /* min-height: 90vh; */
 }
 
-.container {
-    max-height: 100%;
-    margin: 3em 1em;
-
+.main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -80,15 +81,16 @@ body {
 .img {
     display: block;
     max-width: 100%;
+    height: auto;
     mix-blend-mode: multiply;
 }
 
-.attribution {
-    max-width: 80%;
-    margin: .5em auto;
+/* main styling */
+.container {
+    max-width: 88%;
+    margin: 5.5rem auto;
 }
 
-/* main styling */
 .card {
     background-color: var(--card-blue);
     border-radius: 10px;
@@ -118,160 +120,162 @@ body {
 }
 
 .card__text {
-    margin: 2em;
+    padding: 2.5rem 2rem;
 }
 
-.text-wrapper {
-    margin-bottom: 2em;
+.stats + .stats{
+    margin-top: 1.8rem;
 }
 
-.stats {
-    margin: 1.5em 0;
+@media (min-width: 580px) {
+    .text-wrapper {
+        max-width: 92%;
+        margin: 0 auto;
+    }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 690px) {
     .card {
-        max-width: 80%;
-    }
-
-    .span-text {
-        display: inline;
+        max-width: 38rem;
+        margin: 0 auto;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1080px) {
     body {
         text-align: left;
-        font-size: 13.5px;
+        font-size: 15px;
     }
 
-    .attribution {
-        text-align: center;
+    .container {
+        margin: 6.5rem auto;
+    }
+
+    .card__heading {
+        font-size: 1.85rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.15;
+    }
+
+    .card__paragraph {
+        font-size: .85rem;
+        line-height: 1.6;
+        max-width: 85%;
+        margin-bottom: 3.2rem;
+    }
+
+    .stats__num {
+        font-size: 1.2rem;
+    }
+
+    .stats__title {
+        font-family: 'Lexend Deca', 'Inter', sans-serif;
+        font-size: .65rem;
+        line-height: .8;
     }
 
     .card {
+        max-width: 56.5rem;
         display: flex;
-        justify-content: space-between;
-
-        max-width: 90%;
-    }
-
-    .card__img,.img , .img-overlay {
-        border-radius: 0 10px 10px 0;
     }
 
     .card__img {
         order: 2;
     }
 
-    .card__text {
-        max-width: 48%;
-        padding: 0 2em;
-        margin: 2em auto;
+    .card__img, .img-overlay, .img {
+        border-radius: 0 10px 10px 0;
+    }
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    .card__text {
+        max-width: 51.5%;
+        padding: 3.5rem 3.5rem;
     }
 
     .text-wrapper {
-        margin-bottom: 0;
-        max-width: 90%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        max-width: 100%;
     }
 
     .card__stats {
+        max-width: 82.5%;
         display: flex;
         justify-content: space-between;
-        max-width: 80%;
     }
 
-    .stats {
-        margin-bottom: 0;
-    }
-
-    .stats__title {
-        font-family: 'Lexend Deca', 'sans-serif';
+    .stats + .stats{
+        margin-top: 0;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1160px) {
     body {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .container {
-        max-width: 90%;
-        margin: 3em auto;
+        margin: 7rem auto;
     }
 
     .card__heading {
-        margin-bottom: .6em;
-    }
-
-    .card__text {
-        margin-left: 1em;
-    }
-}
-
-
-@media (min-width: 1080px) {
-    body {
-        font-size: 18px;
-    }
-
-    .container {
-        max-width: 85%;
-        margin: 3em auto;
-    }
-
-    .card__heading {
-        margin-bottom: .8em;
-    }
-
-    .stats__num {
-        font-size: 1rem;
-    }
-        
-    .stats__title {
-        font-size: .65rem;
-    }
-}
-
-@media (min-width: 1300px) {
-    body {
-        font-size: 20px;
-    }
-
-    .container {
-        max-width: 80%;
-        margin: 3em auto;
-    }
-
-    .card__subheading {
-        font-size: .9rem;
+        font-size: 2.1rem;
     }
     
-    .stats__num {
-        font-size: 1.2rem;
+    .card__paragraph {
+        margin-bottom: 3.5rem;
     }
-        
+
     .stats__title {
-        font-size: .7rem;
+        font-size: .75rem;
+    }
+
+    .card {
+        max-width: 62.5rem;
     }
 
     .card__text {
-        max-width: 50%;
+        padding: 4rem 4.5rem;
+    }
+}
+
+
+@media (min-width: 1290px) {
+
+    .container {
+        margin: 8rem auto;
     }
 
-    .text-wrapper {
+    .card__heading {
+        font-size: 2.25rem;
+    }
+
+    .card__paragraph {
+        font-size: .95rem;
+        line-height: 1.8;
         max-width: 85%;
+        margin-bottom: 4.35rem;
     }
 
-    .card__stats {
-        max-width: 70%;
+    .stats__num {
+        font-size: 1.5rem;
+    }
+    
+    .stats__title {
+        font-size: .8rem;
+        line-height: 1;
+    }
+
+    .card {
+        max-width: 69.5rem;
+    }
+
+    .card__text {
+        padding: 4.6rem 4.7rem 3.4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container {
+        margin: 10rem auto;
     }
 }
