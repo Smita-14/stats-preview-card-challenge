@@ -28,7 +28,7 @@
 }
 
 .attribution__link {
-    color: hsl(216, 89%, 44%);
+    color: hsl(189, 62%, 60%);
 }
 
 .card__heading {
@@ -59,7 +59,7 @@
     color: var(--title--white);
     text-transform: uppercase;
     font-size: .8rem;
-    letter-spacing: .5px;
+    letter-spacing: .6px;
 }
 
 
