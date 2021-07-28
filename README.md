@@ -26,17 +26,12 @@ Users should be able to:
 
 ### Screenshots
 
+**Mobile Preview**
 
-| **Mobile Design** | **My Solution** |
-| -- | -- |
-| ![Target Mobile design](./design/mobile-design2.jpg) | ![My solution to design](./design/mobile-size2.jpg) |
+![My solution to design](./design/mobile-size.jpg)
 
-
-| **Desktop Design** |
-| :--: |
-| ![Target desktop design](./design/desktop-design.jpg) |
-| **My Solution** |
-| ![My solution to design](./design/desktop-size.jpg) | 
+**Desktop preview** 
+![My solution to design](./design/desktop-size.jpg)
 
 
 ### Links
