@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/mobilefirst-responsive-site-using-bem-and-css-flexbox-5t8xOw1c0)
-- Live Site URL: [https://smita-14.github.io/stats-preview-card-challenge](https://smita-14.github.io/stats-preview-card-challenge/)
+- Solution URL: [Solution on FrontendMentor.io](https://www.frontendmentor.io/solutions/mobilefirst-approach-using-bem-and-css-flexbox-ZidZpy2Jv)
+- Live Site URL: [Live site preview](https://smita-14.github.io/stats-preview-card-challenge/)
 
 ## My process
 
