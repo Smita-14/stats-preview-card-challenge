@@ -80,7 +80,7 @@ Users should be able to:
 
     ```html
     <picture>
-      <source media="(max-width: 800px)" srcset="../image/mobile-image.jpg">
+      <source media="(max-width: 1079px)" srcset="../image/mobile-image.jpg">
       <img class="img" src="../image/desktop-image.jpg" alt="meeting">
     </picture>
     ```
