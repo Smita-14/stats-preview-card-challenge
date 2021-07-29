@@ -68,7 +68,6 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-blue);
     text-align: center;
-    /* min-height: 90vh; */
 }
 
 .main {
@@ -83,6 +82,7 @@ body {
     max-width: 100%;
     height: auto;
     mix-blend-mode: multiply;
+    border-radius: 10px 10px 0 0;
 }
 
 /* main styling */
@@ -103,17 +103,12 @@ body {
     position: relative;
 }
 
-.img {
-    border-radius: 10px 10px 0 0;
-}
-
 .img-overlay {
     height: 100%;
     width: 100%;
     background-color: var(--soft-violet);
     opacity: .25;
     border-radius: 10px 10px 0 0;
-    mix-blend-mode: screen;
 
     position: absolute;
     top: 0;
