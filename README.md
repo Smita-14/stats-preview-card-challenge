@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-- I learned about background-blend-mode and mix-blend-mode property. Although both of them have different use cases but in this particular challenge I had to pair both to get the desired result.
+- I learned about background-blend-mode and mix-blend-mode property and in this particular challenge I used mix-blend-mode property to get the desired result.
 
 - I ran into an issue where there was a padding at the bottom of the image and i could not trace where it was coming from. I then realized that image is an inline element and the properties like line-height and font-size would affect them causing them to have bottom padding. The solution was simple which was to make it an inline-block or a block element.
 
